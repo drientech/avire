@@ -1,0 +1,220 @@
+body , html {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#sidebar{
+  position: absolute;
+  width: 200px;
+  height: 500px;
+  background-color:#1a2838; 
+left: -200px;
+transition: all 500ms linear;
+ 
+}
+#sidebar.active{ 
+left: 0px;
+}
+#sidebar ul li {
+color: white;
+list-style: none;
+padding: 15px 10px;
+border-bottom: 1px solid rgba(100,100,100,0.3);
+}
+#sidebar .toggle-btn{
+position: absolute;
+left: 230px;
+top: 20px;
+
+
+}
+#sidebar .toggle-btn span{
+display: block;
+width: 30px;
+height: 5px;
+background:white;
+margin: 5px 0px;
+
+}
+nav {
+ background-color: black;
+ color: white;
+ top: 0;
+ left: 0;
+ 
+ width: 100%;
+ height: 100px;
+font-family: 'Lato', sans-serif;
+ margin-bottom: 0 auto;
+
+}
+
+ul {
+margin-right: 150px;
+ 
+margin-bottom: 0 auto;
+}
+
+li {
+  display: inline;
+  margin: 30px;
+   
+}
+a{
+     color: #FFFFFF!important;
+    text-decoration: none!important;
+}
+
+ .carousel-inner img {
+      width: 100%;
+       
+      
+  }
+
+ 
+   #table{
+    background-color: black;
+    color: white;
+    height: 140px;
+font-family: 'Lato', sans-serif;
+
+   }
+ 
+
+ td {
+   border: 0.5px solid white;
+  
+  text-align: center
+ ;
+}
+
+table{
+ width: 50%;
+  height: 110px;
+ margin: 0 auto;
+ 
+}
+
+
+.container{
+  margin: 40px;
+}
+
+
+
+
+#gallery{
+  background-color: black;
+  color: white;
+  text-align: center;
+font-family: 'Lato', sans-serif;
+
+}
+
+
+
+ 
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    color: blue;
+     
+}
+.filter-button
+{
+    font-size: 20px !important;
+    margin: 0 auto;
+    color: blue;
+    margin-bottom: 20px;
+    font-family: 'Arvo', serif;
+
+}
+.filter-button:hover
+{
+    font-size: 30px;
+     text-align: center;
+     color: blue !important;
+    
+font-family: 'Arvo', serif;
+}
+.btn-default:active .filter-button:active
+{
+    background-color: white;
+    color: blue;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+
+ .btn  {
+  color: white !important;
+    
+
+ }
+
+
+
+#latestblog{
+  background-color: #2c3e6a;
+  width: 100%;
+  height: 500px;
+
+}
+
+
+ .blog .carousel-indicators {
+  left: 0;
+  top: auto;
+    bottom: -100px;
+ 
+ 
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    background: white;
+    border-radius: 70%;
+    
+   
+   
+}
+
+.blog .carousel-indicators .active {
+background: #707070;
+}
+
+
+footer{
+  background-color: black;
+  color: white;
+  width: 100%;
+  
+   
+
+}
+
+ 
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #38384f;
+  opacity: 0.9;
+  color: white;
+   width: 600px;
+   text-align: center;
+   font-size: 40px;
+ top: 110px;
+}
